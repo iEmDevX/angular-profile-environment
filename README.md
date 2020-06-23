@@ -1,5 +1,6 @@
 in `angular.json`
 serve => configurations
+
 architect => build => configurations
 
 in `package.json`
