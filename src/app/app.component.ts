@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { environment } from 'src/environments/environment';
+
+const BASE_URL = environment.base_url;
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'profile';
+  profiles = BASE_URL;
 }

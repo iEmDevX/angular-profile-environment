@@ -2,9 +2,10 @@
   "name": "profile",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "ng --configuration=dev",
     "start": "ng serve",
-    "build": "ng build",
+    "start-uat": "ng serve --configuration=uat",
+    "build": "ng build --configuration=prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
